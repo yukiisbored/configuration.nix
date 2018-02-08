@@ -32,7 +32,8 @@
     libreoffice-fresh ntfs3g exfat steam tdesktop emacs
     python3 python36Packages.pip python36Packages.docker_compose arandr
     udisks2 gvfs pcmanfm xarchiver zip unzip iw xterm xorg.xbacklight pass
-    gnupg
+    gnupg xlockmore go dia thunderbird wineFull winetricks steam gcc gnumake
+    gnome3.adwaita-icon-theme gnome3.gnome_themes_standard lxappearance-gtk3
   ];
 
   fonts =
@@ -44,7 +45,11 @@
     ];
   };
 
-  hardware.bluetooth.enable = true;
+  hardware =
+  { bluetooth.enable = true;
+    opengl.driSupport32Bit = true;
+  };
+
 
   programs =
   { bash.enableCompletion = true;
