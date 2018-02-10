@@ -34,6 +34,9 @@
     udisks2 gvfs pcmanfm xarchiver zip unzip iw xterm xorg.xbacklight pass
     gnupg xlockmore go dia thunderbird wineFull winetricks steam gcc gnumake
     gnome3.adwaita-icon-theme gnome3.gnome_themes_standard lxappearance-gtk3
+    multimc ioquake3 openarena xonotic dolphinEmu higan megaglest openttd openra
+    opentyrian pingus pioneers scummvm simutrans wesnoth zeroad gzdoom
+    playonlinux
   ];
 
   fonts =
